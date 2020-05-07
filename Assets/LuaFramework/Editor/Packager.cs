@@ -32,8 +32,7 @@ public class Packager {
 
     [MenuItem("LuaFramework/Build iPhone Resource", false, 100)]
     public static void BuildiPhoneResource() {
-        BuildTarget target = BuildTarget.iOS;
-        BuildAssetResource(target);
+        BuildAssetResource(BuildTarget.iOS);
     }
 
     [MenuItem("LuaFramework/Build Android Resource", false, 101)]

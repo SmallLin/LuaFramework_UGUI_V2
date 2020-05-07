@@ -161,7 +161,10 @@ public static class ToLuaExport
         "UIDrawCall.isActive",
         "Dictionary.TryAdd",
         "KeyValuePair.Deconstruct",
-        "ParticleSystem.SetJob"
+        "ParticleSystem.SetJob",
+        //UnityEngine——Unity2018
+        "Light.SetLightDirty",
+        "QualitySettings.streamingMipmapsRenderersPerFrame",
     };
 
     class _MethodBase
